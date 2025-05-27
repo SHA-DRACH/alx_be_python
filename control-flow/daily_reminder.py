@@ -20,3 +20,9 @@ else:
     message += ". Consider completing it when you have free time."
 
 print(message)
+cd /workspaces/alx_be_python
+git init
+git add control-flow/daily_reminder.py
+git commit -m "Add daily reminder script"
+git remote add origin https://github.com/your-username/your-repo.git  # Replace with your actual repo URL
+git push -u origin main
